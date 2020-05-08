@@ -6,13 +6,13 @@ html {
 body{
     margin: 0;
     padding: 0;
-    width: auto;
+    background-color: white;
 }
 
 header{
     height: 4rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,50 +45,36 @@ header{
 }
 
 .menu li{
-    padding: 1.25rem 0;
-    font-size: 1.5rem;    
+    padding: 1.25rem .5rem;
+    font-size: 1.5rem;
 }
 
-.border{
-    border-left: 1rem solid aquamarine;
-}
-
-.section{
-    height: auto;
+.section_1{
     background-color: lightgray;
-    width: auto;
-    margin-top: 2px; 
     padding: 2rem 1.5rem;
     display: flex;
-    justify-content: flex-start;
+    top: 4rem;
     align-items: center;
-    text-align: center;
     color: DimGray ;
 }
 
-.section .lef{
+.section_1 img{
     width: 60%;
     height: auto;
 }
 
-.section .content{
-    margin-left: 1.5rem;
-    text-align: left;
+.right{
+    padding-left: 1.5rem;
 }
 
 h1{
     font-size: 3rem;
-    font-weight: bolder;
 }
 
 h3{
     font-size: 2rem;
 }
 
-p{
-    font-size: 1.5rem;
-    font-weight: lighter;
-}
 button{
     font-size: 1.5rem;
     width: 100%;
@@ -97,6 +83,135 @@ button{
     padding: 0.5rem 0;
 }
 
-.main{
-    background-color: white;
+.section_2{
+    padding: 0rem 1.5rem;
+    display: flex;
+    top: 4rem;
+    align-items: flex-start;
+    color: DimGray ;
 }
+
+p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.left{
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+.left h1{
+    font-size: 2rem;
+}
+.left p{
+    font-size: 1rem;
+}
+
+.left img{
+    padding-top: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.right{
+    padding-top: 1rem;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+
+.side{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.right .side img{
+    width: 35%;
+    height: auto; 
+    padding: 1rem 1rem;
+    align-items: center;
+}
+.right .contetnt{
+    width: 65%;
+    height: auto;
+    align-items: center;
+}
+
+#last{
+    background-color: lightgray;
+}
+
+#first{
+    padding-top: 0;
+}
+
+.right h3{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.right p{
+    font-size: 1rem;
+}
+
+.section_3{
+    background-color: lightgray;
+}
+.title{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.base{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 4.5rem;
+    justify-content: space-between;
+}
+
+.lesson{
+    background-color: white;
+    text-align: left;
+    width: 30%;
+    margin-bottom: 2rem;
+    
+}
+
+.lesson img{
+    height: auto;
+    width: 100%;
+}
+
+base p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.section_4{
+    padding: 2rem 1.5rem;
+}
+
+.description{
+    padding: 0 1rem 1.5rem 1rem;
+    align-content: center;
+}
+
+
+.section_4 .contetnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section_4 .content .left{
+    width: 60%;
+    height: auto;
+}
+
+
